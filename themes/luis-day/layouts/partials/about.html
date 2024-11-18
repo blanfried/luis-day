@@ -7,11 +7,11 @@
                     <div class="content">
                         <div class="sub-heading">
                         {{ with .Site.Params.about.heading }}
-                            <h3>{{ . }}</h3>
+                            <h3 style="font-size: 40px; color: black;">{{ . }}</h3>
                         {{ end }}
                         </div>
                         {{ with .Site.Params.about.description }}
-                            <p>{{ . | markdownify }}</p>
+                            <p style="font-size: 20px;">{{ . | markdownify }}</p>
                         {{ end }}
                     </div>
                 </div>

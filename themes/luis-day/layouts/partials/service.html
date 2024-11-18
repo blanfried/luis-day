@@ -8,17 +8,61 @@
                         <h2>{{ . }}</h2>
                     {{ end }}
                     {{ with .Site.Params.service.subtitle }}
-                        <p>{{ . }}</p>
+                        <p style="font-size: 20px;">{{ . }}</p>
                     {{ end }}
                 </div>
                 {{ range .Site.Params.service.serviceItem }}
                     <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .delay }}">
-                        <div class="block">
+                        <div class="serviceBlock">
                             <i class="{{ .icon }}"></i>
                             <h3>{{ .title }}</h3>
                             <p>{{ .description }}</p>
                         </div>
                     </div>
+                    <style>
+                        .serviceBlock {
+                            width: 300px; /* Set desired width */
+                            height: 400px; /* Set desired height */
+                            margin: 15px auto; /* Center within the container and add space between items */
+                            padding: 20px; /* Add padding inside the block */
+                            background-color: #f5f5f5; /* Light background color */
+                            border: 1px solid #ddd; /* Add a border for clarity */
+                            border-radius: 8px; /* Slight rounding of corners */
+                            text-align: center; /* Center text and icon */
+                            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+                            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+                        }
+                    
+                        .serviceBlock:hover {
+                            transform: translateY(-10px); /* Lift block on hover */
+                            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Intensify shadow on hover */
+                        }
+                    
+                        .serviceBlock i {
+                            font-size: 48px; /* Icon size */
+                            color: #333; /* Icon color */
+                            margin-bottom: 15px; /* Space between icon and text */
+                        }
+                    
+                        .serviceBlock h3 {
+                            font-size: 24px; /* Title size */
+                            color: #444; /* Title color */
+                            margin-bottom: 10px; /* Space below title */
+                        }
+                    
+                        .serviceBlock p {
+                            font-size: 16px; /* Description size */
+                            color: #666; /* Description color */
+                            line-height: 1.5; /* Improve readability */
+                        }
+                    
+                        /* Ensure proper spacing between columns */
+                        .col-sm-6, .col-md-3 {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    </style>
                 {{ end }}
             </div>
         </div>
