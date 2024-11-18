@@ -11,7 +11,7 @@ customHead = ""
 
 # Navigation
 [params.navigation]
-logo = "images/logo.png"
+logo = "images/logo.svg"
 # home = "Home"
 # about = "About"
 # service = "Services"
@@ -44,7 +44,19 @@ image = "images/about/2.jpg"
 [[params.about.sliderItem]]
 image = "images/about/3.jpg"
 [[params.about.sliderItem]]
-image = "images/about/2.jpg"
+image = "images/about/4.jpg"
+[[params.about.sliderItem]]
+image = "images/about/5.jpg"
+[[params.about.sliderItem]]
+image = "images/about/6.jpg"
+[[params.about.sliderItem]]
+image = "images/about/7.jpg"
+[[params.about.sliderItem]]
+image = "images/about/8.jpg"
+[[params.about.sliderItem]]
+image = "images/about/9.jpg"
+[[params.about.sliderItem]]
+image = "images/about/10.jpg"
 
 
 # Service Section
@@ -56,7 +68,7 @@ subtitle = "On Luis Day, Snacky Boys from near and far unite to partake in a car
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon = "tf-strategy"
+icon = "fa-solid fa-champagne-glasses"
 title = "Merry Making"
 description = "Collective joy is an act of rebellion. Laugh in the face of hierarchy, for the revolution will not be solemn."
 delay = "0s"
@@ -65,7 +77,7 @@ delay = "0s"
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon = "tf-circle-compass"
+icon = "fa fa-music"
 title = "Boogeying"
 description = "A rhythmic expression of joy, where bodies move in ways that defy physics and reason. Dancing is not merely encouraged; it is mandated by the invisible, immutable Snacky Boy Code."
 delay = "0.2s"

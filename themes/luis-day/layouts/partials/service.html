@@ -14,7 +14,7 @@
                 {{ range .Site.Params.service.serviceItem }}
                     <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .delay }}">
                         <div class="serviceBlock">
-                            <i class="{{ .icon }}"></i>
+                            <!-- <i class="{{ .icon }}"></i> -->
                             <h3>{{ .title }}</h3>
                             <p>{{ .description }}</p>
                         </div>
@@ -39,15 +39,15 @@
                         }
                     
                         .serviceBlock i {
-                            font-size: 48px; /* Icon size */
+                            font-size: 40px; /* Icon size */
                             color: #333; /* Icon color */
-                            margin-bottom: 15px; /* Space between icon and text */
                         }
                     
                         .serviceBlock h3 {
                             font-size: 24px; /* Title size */
                             color: #444; /* Title color */
                             margin-bottom: 10px; /* Space below title */
+                            margin-top: 15px; /* Space below title */
                         }
                     
                         .serviceBlock p {
