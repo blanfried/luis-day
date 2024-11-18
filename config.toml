@@ -12,10 +12,10 @@ customHead = ""
 # Navigation
 [params.navigation]
 logo = "images/logo.png"
-home = "Home"
-about = "About"
-service = "Services"
-contact = "Contact"
+# home = "Home"
+# about = "About"
+# service = "Services"
+# contact = "Contact"
 
 # Hero Area
 [params.hero]
