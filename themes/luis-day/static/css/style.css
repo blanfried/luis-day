@@ -282,17 +282,32 @@ a:active {
 }
 
 .hero-area {
-  background-size: cover;
-  background-attachment: fixed;
+  position: relative; /* Make it the parent for the pseudo-element */
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* Prevents rotated image from spilling out */
+}
+
+.hero-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('your-image-url.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  transform: rotate(90deg);
+  transform-origin: center;
+  z-index: -1; /* Send it behind the content */
 }
 
 @media only screen and (max-width: 768px) {
   .hero-area {
-    background-image: url('images/header-bg-mobile.jpg'); /* Replace with your mobile image URL */
+    background-image: url('images/mobile-bg.jpg'); /* Replace with your mobile image URL */
     background-size: cover;
     background-attachment: scroll; /* Use scroll for mobile compatibility */
     height: 100vh;
@@ -472,7 +487,7 @@ a:active {
     call-to-action start
 --*/
 .call-to-action {
-  padding: 90px 0px;
+  padding: 200px 0px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -481,7 +496,7 @@ a:active {
 
 @media only screen and (max-width: 768px) {
   .call-to-action {
-    padding: 90px 0px;
+    padding: 150px 0px;
     background-image: url('images/call-to-action.jpg'); /* Replace with your mobile image URL */
     background-repeat: no-repeat;
     background-size: cover;

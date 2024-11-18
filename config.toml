@@ -20,7 +20,8 @@ logo = "images/logo.svg"
 # Hero Area
 [params.hero]
 enable = true
-bg = "images/header-bg.jpg"
+bg = "images/mobile-bg.jpg"
+mbg = "images/mobile-bg.jpg"
 title = ""
 subtitle = ""
 btnText = ""
