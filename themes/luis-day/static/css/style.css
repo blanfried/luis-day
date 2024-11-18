@@ -383,9 +383,9 @@ a:active {
   float: right;
 }
 
-.navigation .navbar-toggler i {
+/* .navigation .navbar-toggler i {
   font-size: 22px;
-}
+} */
 
 .navigation.animated {
   background-color: #fff;
