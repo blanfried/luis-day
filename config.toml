@@ -1,7 +1,7 @@
-baseURL = "https://demo.gethugothemes.com/infinity/site/"
+baseURL = "https://luisday.com"
 languageCode = "en-us"
-title = "Infinity | Comming Soon Hugo Template By Themefisher"
-theme = "infinity-hugo"
+title = "Luis Day!"
+theme = "luis-day"
 removePathAccents = true
 
 
@@ -21,15 +21,15 @@ contact = "Contact"
 [params.hero]
 enable = true
 bg = "images/header-bg.jpg"
-title = "BRING YOUR PRODUCT TO LIGHT"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-btnText = "Get Started"
+title = ""
+subtitle = ""
+btnText = ""
 
 # counter
 disableCountdown = false
-countdownYear = "2022"
-countdownMonth = "12"
-countdownDay = "31"
+countdownYear = "2025"
+countdownMonth = "05"
+countdownDay = "03"
 
 # About Section
 [params.about]
