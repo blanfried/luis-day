@@ -376,12 +376,12 @@ a:active {
   display: inline-block;
 }
 
-.navigation .navbar-toggler {
+/* .navigation .navbar-toggler {
   background: #fff;
   outline: none;
   border-radius: 0;
   float: right;
-}
+} */
 
 /* .navigation .navbar-toggler i {
   font-size: 22px;
