@@ -141,10 +141,10 @@ delay = "1.5s"
 [params.cta]
 enable = true
 bg = "images/call-to-action.jpg"
-title = "Subscribe to our mailing list"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+title = "We are SnackyBoys"
+subtitle = "We like to boogie and stuff"
 
 [params.contact]
 enable = true
-title = "Get In Touch"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+title = "Connect With SnackyBoys in Your Area"
+subtitle = ""
