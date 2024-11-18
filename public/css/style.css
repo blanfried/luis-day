@@ -290,6 +290,19 @@ a:active {
   align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero-area {
+    background-image: url('images/header-bg-mobile.jpg'); /* Replace with your mobile image URL */
+    background-size: cover;
+    background-attachment: scroll; /* Use scroll for mobile compatibility */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; /* Center the background image */
+  }
+}
+
 .hero-area h1 {
   color: #fff;
   font-size: 60px;
@@ -464,6 +477,18 @@ a:active {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .call-to-action {
+    padding: 90px 0px;
+    background-image: url('images/call-to-action.jpg'); /* Replace with your mobile image URL */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll; /* Ensures compatibility on mobile */
+    position: relative;
+  }
 }
 
 .call-to-action:before {
