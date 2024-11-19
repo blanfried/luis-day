@@ -25,7 +25,7 @@ minutes:
 seconds:
   other: "Seconds"
 sendMe:
-  other: "Send me"
+  other: "Send"
 service:
   other: service
 sliderImage:
